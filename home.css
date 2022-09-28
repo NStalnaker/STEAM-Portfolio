@@ -1,0 +1,47 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-image: url('background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+.header {
+  height:100vh;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 250%;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20%;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.year {
+  padding: 0;
+  padding-bottom: 0.7%;
+  margin: 0;
+}
+
+.portfolio {
+  padding: 0;
+  margin: 0;
+}
+
+.name {
+  font-size: 90%;
+  padding-top: 5%;
+}
